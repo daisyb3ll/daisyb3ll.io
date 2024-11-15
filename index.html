@@ -4,160 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daisy Fernandez-Reyes UX/UI & HCI Portfolio</title>
-    <style>
-        .line-item {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 0.5rem;
-        }
+    <title>Nice to Meet You ✿!</title>
 
-        .title {
-            text-align: left;
-            font-weight: bold;
-        }
+    <!-- Link to Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Source+Code+Pro:wght@400;700&display=swap"
+        rel="stylesheet">
 
-        .date {
-            text-align: right;
-            color: #666;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: #513a2e;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #ffffff;
-            color: #ff6f14;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 1.5rem;
-        }
-
-        section {
-            margin-bottom: 2rem;
-            background-color: #fff;
-            border: 1px solid #ffffff;
-            border-radius: 10px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 8px rgba(255, 111, 20, 0.1);
-        }
-
-        h2 {
-            color: #ff6f14;
-            text-align: center;
-            margin-bottom: 1rem;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 0.75rem;
-        }
-
-        a {
-            color: #ff6f14;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            background-color: hsl(28, 100%, 89%);
-            color: #ff6f14;
-            text-align: center;
-            padding: 1rem;
-            border-top: 2px solid #ff6f14;
-        }
-
-        .flower {
-            color: #ff6f14;
-        }
-    </style>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Daisy Fernandez-Reyes <span class="flower">✿</span></h1>
-        <p>UX/UI Designer & Researcher</p>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+
+            <!-- Profile Photo -->
+        <!-- <img src="pfp_8bit.png" alt="Daisy's Profile Picture" class="profile-picture"> -->
+
+            <!-- Bio Information -->
+            <div>
+                <h1>Daisy Fernandez-Reyes <span class="minibody">she/her</span></h1>
+                <p><span class="flower">✿</span> Software Engineering & Peace Studies @ Chapman University</p>
+                <p><span class="flower">✿</span> UX/UI & HCI Research Assistant @ UIdeas Lab</p>
+                <p><span class="flower">✿</span> Freelance Illustrator & Designer</p>
+                <p><span class="flower">✿</span> Orange, California</p>
+
+                <!-- <img src="Users/daisy/Downloads/icon_art/pfp_8bit.png" alt="Daisy's Profile Picture" class=".profile-picture"> -->
+
+            </div>
+
+            <!-- Profile Photo -->
+            <img src="pfp_8bit.png" alt="Daisy's Profile Picture" class="profile-picture">
+
+                            <!-- <img src="Users/daisy/Downloads/icon_art/pfp_8bit.png" alt="Daisy's Profile Picture" class=".profile-picture"> -->
+
+        </div>
+
+        <!-- Social Media Icon Buttons -->
+        <div class="social-media-buttons">
+            <a href="https://www.linkedin.com/in/daisy-fernandez-reyes-50849b237/" class="icon-button">
+                <img src="linkedinsprite.gif" alt="LinkedIn" class="button-icon">
+                <!-- LinkedIn -->
+            </a>
+            <a href="https://github.com/daisyb3ll" class="icon-button">
+                <img src="codedex-bot-logo-compressed 2.png" alt="GitHub" class="button-icon">
+            <a href="https://www.instagram.com/daisyinspanish" class="icon-button">
+                <img src="insta_logo.png" alt="Instagram" class="button-icon">
+                
+            </a>
+            <a href="https://www.codedex.io/yourusername" class="icon-button">
+                <img src="codedex-bot-logo-compressed.gif" alt="CodeDex" class="button-icon">
+                <!-- CodéDex -->
+            </a>
+        </div>
     </header>
 
-    <div class="container">
+    <!-- Navigation Bar -->
+    <nav class="headerbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-        <section id="welcome">
-            <h3>Thanks for stopping by! <span class="flower">✿</span></h3>
-            <p>This portfolio is hosted using GitHub Pages <3< /p>
-        </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me <span class="flower">✿</span></h2>
+        <p>I'm a Software Engineering major with a minor in Peace and Justice Studies at Chapman University. I'm a SoCal
+            native, love to skate, draw, design, sew, watch anime, and code. I enjoy working in frontend, UX/UI, and web
+            design and development.</p>
+    </section>
 
-        <section id="about">
-            <h3>Who even are you? <span class="flower">✿</span></h3>
-            <p>Hey! I’m Daisy Fernandez-Reyes, a UX/UI Designer and Researcher focused on creating inclusive and
-                impactful designs.</p>
-        </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects <span class="flower">✿</span></h2>
+        <div class="project-item">
+            <h3>Project Title</h3>
+            <p>Short description of the project. <a href="#">View Project</a></p>
+        </div>
+        <div class="project-item">
+            <h3>Project Title</h3>
+            <p>Short description of the project. <a href="#">View Project</a></p>
+        </div>
+    </section>
 
-        <!-- Resume Section -->
-        <section id="resume">
-            <h2>Resume</h2>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me <span class="flower">✿</span></h2>
+    </section>
 
-            <div class="line-item">
-                <div class="title">Chapman University, Fowler School of Engineering</div>
-                <div class="date">Aug 2021 - May 2025</div>
-            </div>
-            <p><strong>Education:</strong> Bachelor of Science in Software Engineering, Minor in Peace and Justice
-                Studies</p>
-            <p><strong>Awards:</strong> Chapman Orange Simon Stem Scholarship, ALO Eugenia Love Scholar, College Bound
-                Alumni Scholar, Outstanding Junior in Leadership</p>
-            <p><strong>Skills:</strong> C++, Python, SQL, Java, HTML/CSS, UX/UI Design, Figma, Adobe Suite, Agile, Data
-                Structures, and Algorithms</p>
-
-            <p><strong>Professional Experience:</strong></p>
-            <ul>
-                <li>
-                    <div class="line-item">
-                        <span class="title">Research Assistant at Smart Dance, U Ideas Lab</span>
-                        <span class="date">Dec 2023 - Current</span>
-                    </div>
-                    User experience research, qualitative analysis, and Agile project management.
-                </li>
-                <li>
-                    <div class="line-item">
-                        <span class="title">Researcher at Harmonic Threads, U Ideas Lab</span>
-                        <span class="date">Mar 2023 - Dec 2023</span>
-                    </div>
-                    Co-led AR-based learning tools for neurodiverse children, published in Digital ACM library.
-                </li>
-                <li>
-                    <div class="line-item">
-                        <span class="title">Resident Advisor at Chapman RLFYE</span>
-                        <span class="date">Aug 2023 - Present</span>
-                    </div>
-                    Led community programs, DEI initiatives, and digital engagement for 400+ students.
-                </li>
-            </ul>
-            <p><a href="path/to/resume.pdf" download>Download Full Resume <span class="flower">✿</span></a></p>
-        </section>
-
-    </div>
-
-    <footer>
-        <p>Email me at: <a href="mailto:daisy.fernandez.zr@gmail.com">daisy.fernandez.zr@gmail.com</a></p>
-        <p>Orange, CA | (714) 597-9404</p>
-        <p>This portfolio is hosted using GitHub Pages <3< /p>
+    <!-- Footer -->
+    <footer class="footer">
+        
+        <p>© 2024 daisyland
+        <br>
+        this portfiolio is hosted on Github Pages <3
+        </br>
+        </p>
     </footer>
 
 </body>
