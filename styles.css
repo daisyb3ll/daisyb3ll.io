@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: "lores-12", monospace;
     background-color: hsl(0, 0%, 100%);
     color: #513a2e;
     line-height: 1.6;
@@ -44,10 +44,11 @@ a:hover {
     object-fit: cover;
 }
 
+
 .header h1 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "lores-12", monospace;
 }
 
 .minibody {
@@ -74,19 +75,19 @@ a:hover {
     background-color: hsl(0, 0%, 100%);
     color: #ff6f14;
     border: none;
-    padding: 0.5rem .5rem;
+    padding: 0.1rem .1rem;
     border-radius: 5px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'lores-12', monospace;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     text-decoration: none;
-    box-shadow: 5px 5px 15px rgba(255, 164, 111, 0.5);
+    box-shadow: 5px 5px .5px rgba(255, 164, 111, 0.5);
 }
 
 .icon-button:hover {
     background-color: hsl(0, 0%, 100%);
-    transform: scale(1.05);
+    transform: scale(1.5);
 }
 
 .icon-button:active {
@@ -101,11 +102,13 @@ a:hover {
 
 /* Navigation Bar */
 .headerbar {
-    font-family: 'Roboto Mono', monospace;
-    background-color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-family: "lores-12", monospace;
+    background-color:  hsl(0, 0%, 100%);
     color: #ff6f14;
     padding: 1.5rem;
     text-align: center;
+    word-spacing: 10rem;
 }
 
 /* Section Styling */
@@ -118,10 +121,114 @@ section {
 
 h2,
 h3 {
+    font-family: "tiny5", monospace;
     font-size: 1.8rem;
     color: #ff6f14;
     margin-bottom: 1rem;
-    font-family: 'Roboto Mono', monospace;
+}
+
+
+#about-me {
+    
+    font-family: "lores-12", monospace;
+    max-width: 800px;
+    margin: auto;
+    padding: rem;
+}
+
+.timeline {
+    
+    position: relative;
+    padding: rem 0;
+}
+
+.timeline::before {
+    font-family: "tiny5", monospace;
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #ffdbc5;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-left: 40px;
+}
+
+.timeline-icon {
+    font-family: "tiny5", monospace;
+    width: 10px;
+    height: 10px;
+    background-color: #ff6f14;
+    color: #fff;
+    /* border-radius: 1 ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.timeline-content {
+    margin-left: 0%;
+    box-shadow: #513a2e;
+}
+
+.timeline-content h3 {
+    font-size: 1.2rem;
+    color: #ff6f14;
+    margin-bottom: 0.2rem;
+    /* box-shadow: #513a2e; */
+}
+
+.timeline-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    display: block;
+    /* box-shadow: #513a2e; */
+}
+
+.timeline-content p {
+    font-size: 1rem;
+    color: #ffffff;
+    /* box-shadow: #513a2e; */
+}
+
+/* Scrollable Section Styling */
+.scrollable-section {
+    width: 80%;
+    /* Set width as needed */
+    max-width: 600px;
+    /* Optional max-width for better readability */
+    height: 300px;
+    /* Fixed height to enable scrolling */
+    padding: 0.1rem;
+    overflow-y: auto;
+    /* Adds vertical scroll if content overflows */
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 6px 6px .5px rgba(255, 164, 111, 0.5);
+}
+
+
+.scrollable-section h2 {
+    margin-bottom: 1rem;
+    color: #2e2e2e;
+}
+
+.scrollable-section p {
+    margin-bottom: 1rem;
+    color: #666;
 }
 
 /* Footer */
@@ -130,5 +237,8 @@ h3 {
     padding: 1.5rem;
     background-color: #ffffff;
     color: #ff6f14;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Tiny5', monospace;
+
 }
+
+
