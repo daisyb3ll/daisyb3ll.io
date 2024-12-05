@@ -1,15 +1,12 @@
 # daisyb3ll.io
-portfolio page for daisy! 
+daisyb3ll.io is my portfolio project! 
+# # about
+initially started as a web-dev self-learnign exercise, I had never intended to ever host my own postfolio, until I learned online that you could host your own websites on github!
+Thanks github! 
 
+# # inspo
+neocities
 
-/Users/daisy/Documents/GitHub/daisyb3ll.io/index.html
+game dev
 
-/Users/daisy/Documents/GitHub/daisyb3ll.io/index.html
-/Users/daisy/Documents/GitHub/daisyb3ll.io/Users/daisy/Downloads/icon_art/assets/profile32.png
-
-Users/daisy/Downloads/icon_art/assets/profile32.png
-
-
-index.html
-
-art/profile32.png
+art
