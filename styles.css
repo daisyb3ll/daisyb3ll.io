@@ -23,6 +23,10 @@ a:hover {
 
 /* Header */
 .header {
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    width:100;
     background-color: hsl(0, 0%, 100%);
     color: #ff6f14;
     padding: 2rem;
@@ -31,6 +35,7 @@ a:hover {
 
 .header-content {
     display: flex;
+    flex-direction:
     align-items: center;
     gap: 1.5rem;
     /* Corrected gap */
@@ -49,6 +54,7 @@ a:hover {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     font-family: "lores-12", monospace;
+    align-items: center;
 }
 
 .minibody {
@@ -62,28 +68,38 @@ a:hover {
 
 /* Social Media Button Section */
 .social-media-buttons {
-    margin-top: 1rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Horizontally center the buttons */
+    gap: 1rem; /* Add spacing between the buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap if needed */
 }
+
 
 .icon-button {
     display: flex;
+    /* Flexbox for internal alignment */
     align-items: center;
-    gap: 0.5rem;
+    /* Centers icon and text vertically */
+    justify-content: center;
+    /* Centers icon and text horizontally */
+    padding: .5rem .5rem;
+    /* Adds padding for better click area */
     background-color: hsl(0, 0%, 100%);
-    color: #ff6f14;
-    border: none;
-    padding: 0.1rem .1rem;
+    border: 2px solid rgba(255, 164, 111, 0.5);
+    /* Optional: Border for clarity */
     border-radius: 5px;
-    font-family: 'lores-12', monospace;
-    font-size: 1rem;
+    /* Optional: Rounded corners */
+    box-shadow: 5px 5px 0.5px rgba(255, 164, 111, 0.5);
+    /* Optional: Drop shadow */
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    text-decoration: none;
-    box-shadow: 5px 5px .5px rgba(255, 164, 111, 0.5);
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
+
+.icon-button:hover {
+    background-color: rgba(255, 164, 111, 0.2);
+    transform: scale(1.1);
+}
+
 
 .icon-button:hover {
     background-color: hsl(0, 0%, 100%);
