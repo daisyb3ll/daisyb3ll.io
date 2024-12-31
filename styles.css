@@ -26,6 +26,7 @@ a:hover {
     display:flex;
     justify-content: center; 
     align-items: center; 
+    flex-direction: column;
     width:100;
     background-color: hsl(0, 0%, 100%);
     color: #ff6f14;
@@ -36,7 +37,7 @@ a:hover {
 .header-content {
     display: flex;
     flex-direction:
-    align-items: center;
+    align-items center;
     gap: 1.5rem;
     /* Corrected gap */
 }
@@ -103,7 +104,7 @@ a:hover {
 
 .icon-button:hover {
     background-color: hsl(0, 0%, 100%);
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .icon-button:active {
@@ -221,11 +222,11 @@ h3 {
 
 /* Scrollable Section Styling */
 .scrollable-section {
-    width: 80%;
+    width: 100%;
     /* Set width as needed */
     max-width: 600px;
     /* Optional max-width for better readability */
-    height: 300px;
+    height: 500px;
     /* Fixed height to enable scrolling */
     padding: 0.1rem;
     overflow-y: auto;
@@ -244,7 +245,7 @@ h3 {
 
 .scrollable-section p {
     margin-bottom: 1rem;
-    color: #666;
+    color: #666666;
 }
 
 /* Footer */
