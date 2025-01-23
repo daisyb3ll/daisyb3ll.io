@@ -1,9 +1,12 @@
-## daisyb3ll.io
-daisyb3ll.io is my portfolio project! 
-# # about
-Initially started as a web-dev self-learnign exercise. I had never intended to ever host my own postfolio, until I learned online that you could host your own websites on github!
-Thanks github! 
+# daisyb3ll.io
 
-# # special thanks
-Special thanks to the Codédex communtiy for all their support, and to Github for their tutorials! 
+Welcome to daisyb3ll.io, my personal portfolio project! Originally launched as a simple HTML & CSS hobby project, this site has gradually evolved into the landing page for my work under @daisyland.design . I plan to showcase my programming, UX/UI, and graphic design projects, and my zine projects! Currently, it features a fun 8-bit theme, but is **under construction** ! 
+## about
+
+This portfolio began as a self-learning exercise in web development. I initially had no intention of hosting my own portfolio—until I discovered that GitHub makes it easy to host your own websites. 
+Thanks, GitHub! 
+
+## special thanks
+Special thanks to the Codédex community for their amazing support and to the GitHub community for their excellent tutorials that made this project possible!
+Also shoutout to @mlh for the domain subscription thank you guys! <3
 
