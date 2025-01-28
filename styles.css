@@ -77,6 +77,7 @@ a:hover {
 
 
 .icon-button {
+    font-family: "lores-12", monospace;
     display: flex;
     /* Flexbox for internal alignment */
     align-items: center;
