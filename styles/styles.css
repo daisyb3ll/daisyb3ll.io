@@ -347,6 +347,20 @@ h3 {
         /* Optional: Adds soft shadow */
     }
 
+.gif {
+        width: 300px;
+    /* Adjust the size */
+    height: auto;
+     /* Keep aspect ratio */
+    border-radius: 16px;
+    /* Round edges */
+    display: block;
+    margin: 20px auto;
+    /* Center the GIF */
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+            /* Optional: Shadow */
+        }
+
 /* Footer */
 .footer {
     text-align: center;
