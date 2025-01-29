@@ -347,6 +347,23 @@ h3 {
         /* Optional: Adds soft shadow */
     }
 
+.rounded-vid {
+    width: 75%;
+    /* Adjust the percentage or use px, e.g., 300px */
+    max-width: 400px;
+    /* Prevents the image from getting too large */
+    height: auto;
+    /* Maintains aspect ratio */
+    border-radius: 16px;
+    /* Rounds the corners */
+    display: block;
+    /* Ensures proper spacing */
+    margin: 20px auto;
+    /* Centers the image */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Adds soft shadow */
+}
+
 .gif {
         width: 300px;
     /* Adjust the size */
