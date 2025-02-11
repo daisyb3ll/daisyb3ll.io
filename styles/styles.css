@@ -73,6 +73,7 @@ a:hover {
     justify-content: center; /* Horizontally center the buttons */
     gap: 1rem; /* Add spacing between the buttons */
     flex-wrap: wrap; /* Allow buttons to wrap if needed */
+    margin-top: 20px ;
 }
 
 
@@ -337,7 +338,7 @@ h3 {
         /* Prevents the image from getting too large */
         height: auto;
         /* Maintains aspect ratio */
-        border-radius: 16px;
+        border-radius: 10px;
         /* Rounds the corners */
         display: block;
         /* Ensures proper spacing */
@@ -348,35 +349,45 @@ h3 {
     }
 
 .rounded-vid {
-    width: 75%;
+    width:auto;
     /* Adjust the percentage or use px, e.g., 300px */
     max-width: 400px;
     /* Prevents the image from getting too large */
     height: auto;
     /* Maintains aspect ratio */
-    border-radius: 16px;
+    border-radius: 10px;
     /* Rounds the corners */
     display: block;
     /* Ensures proper spacing */
-    margin: 20px auto;
+    margin: 0;
     /* Centers the image */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
     /* Optional: Adds soft shadow */
 }
 
 .gif {
-        width: 300px;
+    width: 300px;
     /* Adjust the size */
     height: auto;
      /* Keep aspect ratio */
     border-radius: 16px;
     /* Round edges */
-    display: block;
+    display: flex;
+    gap: 20px;
     margin: 20px auto;
     /* Center the GIF */
             box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
             /* Optional: Shadow */
         }
+
+.image-container {
+    display: flex;
+    /* Use flexbox to align items side by side */
+    gap: 20px;
+    /* Optional: adds space between images */
+    justify-content: center;
+}
 
 /* Footer */
 .footer {
